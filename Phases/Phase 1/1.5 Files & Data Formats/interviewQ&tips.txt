@@ -1,0 +1,188 @@
+What is the difference between TXT, CSV, and JSON?
+
+| TXT                | CSV                    | JSON                       |
+| ------------------ | ---------------------- | -------------------------- |
+| Plain text         | Comma-separated values | JavaScript Object Notation |
+| No fixed structure | Tabular data           | Structured data            |
+| Human-readable     | Spreadsheet-like       | Human & machine-readable   |
+
+
+Why is with open() preferred over open()?
+
+with open() automatically closes the file after use, even if an error occurs.
+with open("file.txt", "r") as file:
+    print(file.read())
+Without with:
+file = open("file.txt", "r")
+print(file.read())
+file.close()
+
+
+Difference between read(), readline(), and readlines().
+
+| Method        | Description                          |
+| ------------- | ------------------------------------ |
+| `read()`      | Reads the entire file as one string. |
+| `readline()`  | Reads one line at a time.            |
+| `readlines()` | Reads all lines into a list.         |
+
+
+Difference between file modes r, w, a, x, r+, and a+.
+
+| Mode | Purpose                                                          |
+| ---- | ---------------------------------------------------------------- |
+| `r`  | Read only. File must exist.                                      |
+| `w`  | Write. Creates file or overwrites existing file.                 |
+| `a`  | Append to the end of the file. Creates file if it doesn't exist. |
+| `x`  | Create a new file. Gives an error if the file already exists.    |
+| `r+` | Read and write. File must exist.                                 |
+| `a+` | Read and append. Creates file if it doesn't exist.               |
+
+
+What happens if a file doesn't exist in "r" mode?
+
+Python raises:
+FileNotFoundError
+
+
+What happens if a file doesn't exist in "w" mode?
+
+Python creates a new file automatically.
+
+
+Difference between write() and writelines()>
+
+write()
+Writes one string.
+file.write("Hello")
+writelines()
+Writes multiple strings from a list.
+file.writelines(["Ali\n", "Ahmed\n", "Sara\n"])
+
+
+Why is newline="" used when writing CSV files?
+
+It prevents extra blank lines, especially on Windows. The csv module handles newlines itself.
+
+
+Why does csv.reader() return strings for all values?
+
+CSV files store everything as text, so csv.reader() reads every value as a string. Convert values manually if needed.
+age = int(row[1])
+
+
+Difference between csv.reader() and csv.DictReader()?
+
+| `csv.reader()`  | `csv.DictReader()`    |
+| --------------- | --------------------- |
+| Returns lists   | Returns dictionaries  |
+| Access by index | Access by column name |
+
+
+Difference between csv.writer() and csv.DictWriter()?
+
+| `csv.writer()`           | `csv.DictWriter()`  |
+| ------------------------ | ------------------- |
+| Writes lists             | Writes dictionaries |
+| No column names required | Uses field names    |
+
+
+
+What is JSON and why is it widely used?
+
+JSON (JavaScript Object Notation) is a lightweight format for storing and exchanging data.
+
+It is widely used because:
+Easy to read
+Easy to write
+Language-independent
+Used in APIs and web applications
+
+
+Difference between json.dump() and json.dumps().
+
+| `dump()`              | `dumps()`             |
+| --------------------- | --------------------- |
+| Writes JSON to a file | Returns a JSON string |
+
+
+
+Difference between json.load() and json.loads().
+
+| `load()`               | `loads()`                |
+| ---------------------- | ------------------------ |
+| Reads JSON from a file | Reads JSON from a string |
+
+
+
+How do you handle FileNotFoundError?
+
+try:
+    with open("file.txt", "r") as file:
+        print(file.read())
+except FileNotFoundError:
+    print("File not found.")
+
+
+How can you check if a file exists before opening it?
+
+import os
+
+if os.path.exists("file.txt"):
+    print("File exists")
+else:
+    print("File does not exist")
+
+
+What are the advantages of JSON over CSV?
+
+Supports nested data
+Stores objects and arrays
+More flexible
+Better for APIs
+Preserves data structure
+
+
+When would you choose TXT instead of JSON or CSV?
+
+Use TXT when:
+Writing notes
+Saving logs
+Simple plain text
+No structured data is needed
+
+
+Can JSON store nested data? Give an example.
+
+Yes.
+{
+    "name": "Ali",
+    "marks": {
+        "Math": 90,
+        "English": 85
+    },
+    "skills": ["Python", "SQL"]
+}
+JSON can contain:
+Dictionaries (objects)
+Lists (arrays)
+Nested objects
+Nested arrays
+
+
+Why is proper exception handling important when working with files?
+
+Exception handling:
+Prevents program crashes.
+Handles missing files gracefully.
+Displays user-friendly error messages.
+Makes programs more reliable.
+Helps debug file-related problems.
+Example:
+try:
+    with open("data.txt", "r") as file:
+        print(file.read())
+except FileNotFoundError:
+    print("File not found.")
+except PermissionError:
+    print("Permission denied.")

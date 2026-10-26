@@ -1,0 +1,53 @@
+1. Exceptions – Top 10 Interview Questions
+What is an exception in Python?
+What is the difference between an error and an exception?
+Explain the purpose of try, except, else, and finally.
+What happens if an exception is not handled?
+What is the difference between except: and except Exception:?
+Why is using a bare except: considered bad practice?
+What is the purpose of the raise keyword?
+What are custom exceptions, and when should you use them?
+How do you catch multiple exceptions in a single except block?
+What are the best practices for exception handling?
+
+
+
+2. Debugging – Top 10 Interview Questions
+What is debugging?
+What is the difference between debugging and testing?
+What are the three main types of errors in Python?
+What is the difference between a syntax error, runtime error, and logical error?
+How do you debug a Python program?
+What information does a Python traceback provide?
+What are breakpoints, and why are they useful?
+What is an assertion (assert), and when should it be used?
+How would you debug an infinite loop?
+What are the best practices for debugging?
+
+
+
+3. Logging Basics – Top 10 Interview Questions
+What is logging in Python?
+Why should you use logging instead of print()?
+What are the different logging levels in Python?
+What is logging.basicConfig() used for?
+How do you write log messages to a file?
+What is the difference between logging.error() and logging.exception()?
+What information should never be logged?
+Why are timestamps important in log files?
+How does logging help in debugging and production environments?
+What are the best practices for logging?
+
+
+
+4. Validation – Top 10 Interview Questions
+What is input validation?
+Why is validation important in software applications?
+What is the difference between validation and exception handling?
+What are the common types of validation (type, range, length, format)?
+Why should you never trust user input?
+What is the difference between client-side and server-side validation?
+How would you validate an email address or phone number?
+Why should validation be performed before processing data?
+What is the difference between validation and sanitization?
+What are the best practices for input validation?

@@ -1,0 +1,17 @@
+1. What is a business question?
+A business question is a question a company wants to answer to make a better decision.
+For example, imagine you own an e-commerce store.
+
+Vague business problem
+"Our sales are bad. What is happening?"
+This doesn't specify what is wrong, how to measure it, or what period to investigate.
+
+
+
+Measurable business question
+"Why did monthly revenue decrease by 15% compared with the previous month, and which products or regions contributed most to the decline?"
+This identifies a metric, comparison period, and areas to investigate.
+
+
+
+The second question gives a data analyst a clear direction for investigation.

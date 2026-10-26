@@ -1,0 +1,30 @@
+{
+    "Departments": [
+        {
+            "Department": "IT",
+            "Employees": [
+                {
+                    "Name": "Ali",
+                    "Salary": 60000
+                },
+                {
+                    "Name": "Ahmed",
+                    "Salary": 75000
+                }
+            ]
+        },
+        {
+            "Department": "HR",
+            "Employees": [
+                {
+                    "Name": "Sara",
+                    "Salary": 50000
+                },
+                {
+                    "Name": "Ayesha",
+                    "Salary": 70000
+                }
+            ]
+        }
+    ]
+}

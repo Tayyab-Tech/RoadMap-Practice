@@ -1,0 +1,29 @@
+========= Retail Sales Analysis ========
+
+Business problem
+A retail company says its sales have dropped recently. Management wants to understand what is happening and decide what actions to take.
+
+1. Primary business question
+Why have the company's total sales decreased recently, and which products or regions are contributing most to the decline?
+
+2. Metrics
+- Total Sales Revenue: The total money generated from sales. Compare revenue across the two periods.
+- Number of Orders: The total number of orders placed by customers. This helps show whether fewer purchases contributed to a revenue decline.
+- Average Order Value (AOV): Average revenue per order, calculated as total revenue divided by the number of orders, using consistent revenue and order definitions.
+- Units Sold: The total number of units sold. This helps distinguish changes in sales volume from changes in spending per order.
+
+3. Comparison period
+Compare the most recent 30 days with the preceding 30 days:
+- Current period: September 19–October 18, 2026 (inclusive).
+- Previous period: August 20–September 18, 2026 (inclusive).
+
+Compare total sales revenue, number of orders, average order value, and units sold across both periods. Use consistent rules for cancellations, returns, discounts, and timestamps. These periods contain 30 calendar days each.
+
+4. Two useful segments
+- Product Category: Analyze categories such as Electronics, Clothing, and Home Appliances to identify which categories show the largest decline.
+- Geographic Region: Analyze sales by city or region to identify locations contributing most to the decline.
+
+Analysis brief
+Objective: Identify where the sales decline is concentrated and provide evidence to guide further investigation.
+Expected output: A concise report showing changes in the four metrics by period and segment, with findings, limitations, and recommendations.
+Important limitation: A decline or association in the data does not, by itself, prove its cause. Investigate possible explanations before making causal claims.

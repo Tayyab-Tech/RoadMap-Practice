@@ -1,0 +1,23 @@
+Business goal	            Measurable metric	    Example question
+
+Increase sales	            Revenue	                Which products generate the most revenue?
+Improve profitability	    Profit margin	        Which products have the lowest profit margins?
+Retain customers	        Churn rate	            What percentage of customers stop purchasing?
+Improve marketing	        Conversion rate	        Which campaign generates the most purchases per visitor?
+Improve operations	        Delivery time	        Which delivery regions have the longest delays?
+Increase customer value	    Average order value	    Is the average amount spent per order increasing?
+
+
+
+Some useful formulas:
+
+Revenue = Price x Quantity Sold
+
+Conversion Rate = (Purchases / Visitors) x 100
+
+Profit Margin = (Revenue - Costs / Revenue) x 100
+
+Churn Rate = (Customers Lost / Customers at Start) x 100
+
+
+Always define the denominator and time period consistently when calculating a rate.

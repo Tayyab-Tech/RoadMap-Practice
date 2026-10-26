@@ -1,0 +1,3 @@
+Order_ID,City,Category,Order_Status,Quantity,Weight_kg,Needs_Review
+1009,Islamabad,Electronics,Returned,1,1.8,True
+1015,Islamabad,Home & Kitchen,Cancelled,2,2.5,True

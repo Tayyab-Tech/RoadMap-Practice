@@ -1,0 +1,58 @@
+============== BUSINESS ANALYSIS BRIEF ==============
+
+1. Business problem:
+2. Primary measurable business question:
+3. Business objective:
+4. Key metrics and definitions:
+5. Scope (time period, population, segments):
+6. Required data:
+7. Analysis plan:
+8. Decision the analysis will support:
+9. Assumptions and limitations:
+10. Expected deliverable:
+
+
+
+===========  Example : 
+
+
+1. Business problem :
+
+Monthly revenue appears to be declining, and management wants to understand why.
+
+2. Primary business question : 
+
+How has revenue changed over the last six months, and which product categories contribute most to the change?
+
+3. Business objective : 
+
+Identify the major contributors to declining revenue and recommend actions to improve sales.
+
+4. Key metrics : 
+
+- Total revenue
+- Number of orders
+- Average order value (AOV)
+- Revenue by product category
+- Monthly revenue growth rate
+
+5. Scope : 
+
+- Period: last six complete months
+- Data: orders, order items, products, and order dates
+- Segments: product categories and months
+
+6. Analysis plan :
+
+- Compare monthly revenue.
+- Identify categories with the largest increases or decreases.
+- Check whether changes in order volume or AOV explain the revenue trend.
+- Investigate missing data and cancelled orders.
+
+7. Expected deliverable :
+
+A one-page report containing key metrics, visualizations, findings, limitations, and recommendations.
+
+8. Potential business decision :
+
+Prioritize investigation of underperforming categories and develop targeted actions based on the evidence.

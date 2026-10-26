@@ -1,0 +1,47 @@
+How to Analyse a Relationship Correctly
+
+Use this workflow:
+
+Step 1 — Visualize
+
+Create a scatter plot.
+
+Look for:
+
+direction
+strength
+outliers
+clusters
+nonlinear patterns
+
+Step 2 — Calculate correlation
+
+Use Pearson correlation when a linear relationship is appropriate.
+
+Step 3 — Fit regression
+
+Estimate the relationship:
+
+ \hat y = b_0 + b_1x 
+ 
+Step 4 — Examine residuals
+
+Ask whether the model is systematically wrong.
+
+Step 5 — Investigate confounders
+
+Ask:
+
+"What other variables could explain this relationship?"
+
+Step 6 — Be careful with language
+
+Instead of:
+
+"X causes Y."
+
+Say:
+
+"X is positively associated with Y."
+
+unless you have appropriate evidence for a causal claim.

@@ -1,0 +1,15 @@
+What is software testing?
+What is unit testing?
+What is the difference between unit, integration, and system testing?
+What is Test-Driven Development (TDD)?
+Explain the Red–Green–Refactor cycle.
+What is the Arrange–Act–Assert (AAA) pattern?
+What is the difference between unittest and pytest?
+Why should unit tests be independent?
+What are edge cases? Give examples.
+What is code coverage, and why isn't 100% coverage enough? ====?
+How do you test functions that raise exceptions?
+What is mocking, and when should it be used?
+What makes a good unit test?
+How should you organize test files in a Python project?
+Which parts of an application should always be unit tested?

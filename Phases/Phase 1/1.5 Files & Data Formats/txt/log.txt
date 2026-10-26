@@ -1,0 +1,5 @@
+INFO: User logged in
+ERROR: Database failed
+INFO: User logged out
+ERROR: Invalid password
+WARNING: Low memory

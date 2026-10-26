@@ -1,0 +1,145 @@
+Part 1: Conditions (Interview Questions)
+1. Difference between if, elif, and else?
+2. What is a nested if?
+3. Difference between :  if a > b:  and  if a >= b:
+4. Difference between : if x: and if x == True:
+5. Which values are considered False in Python?
+Examples:
+0
+0.0
+[]
+{}
+()
+set()
+None
+False
+''
+6. What is short-circuit evaluation?
+Example
+if a > b and func():
+When is func() not executed?
+
+7. Difference between
+==
+and
+is (is memory address check krta hai)
+
+8. Explain the ternary operator.
+Example
+x = "Even" if n % 2 == 0 else "Odd"
+
+9. Difference between
+if a and b:
+and
+if a or b:
+
+10. What happens if no condition becomes True?
+
+Part 2: Loops
+
+11. Difference between for and while.
+12. When should you use a while loop instead of a for loop?
+13. Difference between
+break
+and
+continue
+
+14. What does pass do?
+15. What is an infinite loop?
+Give an example.
+16. What is the purpose of range()?
+Explain
+range(10)
+range(2,10)
+range(2,20,3)
+
+17. Can range() count backwards?
+Explain with an example.
+
+18. Difference between
+for i in range(len(lst))
+and
+for item in lst
+19. What is enumerate()?
+20. What is zip()?
+Part 3: Nested Loops
+21. How many times will this loop run?
+for i in range(5):
+    for j in range(3):
+        print(i,j)
+22. Time complexity of nested loops?
+23. How do you print patterns using nested loops?
+24. Difference between
+break
+inside inner loop
+and
+outside loop.
+
+Part 4: List Comprehensions
+
+25. What is a list comprehension?
+26. Why is it faster than normal loops?
+27. Convert this
+square = []
+for i in range(10):
+    square.append(i*i)
+into a list comprehension.
+
+28. Add a condition inside a comprehension.
+29. Nested list comprehension.
+Example
+[(i,j) for i in range(3) for j in range(3)]
+Explain the output.
+
+30. Difference between
+[]
+and
+()
+inside comprehensions.
+
+31. Difference between
+list comprehension
+and
+generator expression
+
+32. Can comprehension replace every loop?
+Why or why not?
+
+Part 5: Output Questions (Very Common)
+Predict the output
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+Predict
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+Predict
+for i in range(1,6):
+    print(i,end=" ")
+Predict
+print(list(range(2,10,2)))
+Predict
+print([i*i for i in range(5)])
+Predict
+print([i for i in range(10) if i%2==0])
+Predict
+print([[i,j] for i in range(2) for j in range(2)])
+
+Part 6: Coding Interview Questions
+Reverse a number without slicing.
+Reverse a string using loops.
+Check palindrome.
+Check Armstrong number.
+Find factorial.
+Find GCD.
+Print Fibonacci.
+Print prime numbers from 1–100.
+Find second largest element.
+Remove duplicates without set().
+Rotate a list.
+Count vowels.
+Count frequency without count().
+Matrix multiplication.

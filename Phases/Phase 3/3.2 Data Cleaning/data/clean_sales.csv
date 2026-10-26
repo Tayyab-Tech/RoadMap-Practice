@@ -1,0 +1,21 @@
+Order_ID,City,Category,Order_Status,Quantity,Weight,Weight_kg,Weight_Review,City_Review,Category_Review,Status_Review,Needs_Review
+1001,Lahore,Electronics,Completed,2,500 g,0.5,False,False,False,False,False
+1002,Lahore,Electronics,Completed,1,1 kg,1.0,False,False,False,False,False
+1003,Lahore,Electronics,Completed,3,250 g,0.25,False,False,False,False,False
+1004,Lahore,Electronics,Delivered,1,2 kg,2.0,False,False,False,False,False
+1005,Karachi,Clothing,Pending,4,750 g,0.75,False,False,False,False,False
+1006,Karachi,Clothing,Pending,2,1.5 kg,1.5,False,False,False,False,False
+1007,Karachi,Clothing,Pending,1,1000 g,1.0,False,False,False,False,False
+1008,Karachi,Clothing,In Progress,3,3 kg,3.0,False,False,False,False,False
+1009,Islamabad,Grocery,Cancelled,5,500 g,0.5,False,False,False,False,False
+1010,Islamabad,Grocery,Cancelled,2,2.5 kg,2.5,False,False,False,False,False
+1011,Islamabad,Grocery,Cancelled,1,750 g,0.75,False,False,False,False,False
+1012,Islamabad,Grocery,Cancelled,4,1 kg,1.0,False,False,False,False,False
+1013,Lahore,Electronics,Shipped,2,1500 g,1.5,False,False,False,False,False
+1014,Karachi,Clothing,Processing,3,2 kg,2.0,False,False,False,False,False
+1015,unknown city,unknown category,unknown status,1,300 g,0.3,False,True,True,True,True
+1016,Peshawar,Furniture,Returned,2,1 kg,1.0,False,False,False,False,False
+1017,Peshawar,Furniture,Returned,1,2000 g,2.0,False,False,False,False,False
+1018,Faisalabad,Grocery,Completed,5,0.5 kg,0.5,False,False,False,False,False
+1019,Faisalabad,Electronics,Pending,2,750 g,0.75,False,False,False,False,False
+1020,Multan,Home & Kitchen,Shipped,3,1 kg,1.0,False,False,False,False,False

@@ -1,0 +1,91 @@
+=========== Product Profitability Analysis ============
+
+Business problem
+A store sells 100 products, and management suspects some are unprofitable. The goal is to evaluate product profitability and decide whether any products should be improved or discontinued.
+
+1. Profitability metrics
+
+1.1 Total Profit
+What it measures: The money remaining after subtracting relevant costs from net revenue.
+Formula:
+Total Profit = Net Revenue − Total Relevant Costs
+Why it matters: Identifies products generating positive or negative profit. The cost definition and allocation method must be stated clearly.
+
+1.2 Profit Margin
+What it measures: Profit as a percentage of net revenue.
+Formula:
+Profit Margin (%) = (Profit / Net Revenue) × 100
+Why it matters: Helps compare profitability across products with different revenue levels. Use a consistent profit definition and period.
+
+1.3 Sales Revenue
+What it measures: Money generated from product sales before deducting discounts, refunds, and costs.
+Formulas:
+Gross Sales Revenue = Selling Price × Units Sold
+Net Revenue = Gross Sales Revenue − Discounts − Refunds
+Why it matters: Shows the scale of sales and the money retained after discounts and refunds. Ensure refunds and discounts are not deducted twice.
+
+1.4 Return Rate
+What it measures: The share of sold units that are returned.
+Formula:
+Return Rate (%) = (Returned Units ÷ Units Sold) × 100
+Why it matters: High returns may reduce revenue and create extra shipping, handling, and restocking costs. Define the sales cohort and reporting period consistently so returns are matched to the original sales.
+
+Additional useful measure:
+Contribution Margin = Net Revenue − Variable Costs
+This helps assess whether a product contributes toward fixed costs. A product that appears unprofitable after allocated overhead may still contribute money toward expenses that will remain even if the product is discontinued.
+
+2. Required data
+
+- Products: Product ID, name, category. Identifies and groups all 100 products.
+- Sales/order items: Order ID, order-item ID, product ID, sale date, quantity, selling price. Measures sales volume and revenue and links transactions to products.
+- Product costs: Purchase or manufacturing cost per unit, with effective dates if costs change. Calculates cost of goods sold.
+- Discounts: Discount amount and product/order-item association. Measures the impact of discounts on net revenue.
+- Returns/refunds: Original order-item ID, returned quantity, refund amount, return date, and reason if available. Calculates return rates and financial impact.
+- Operating expenses: Shipping, packaging, storage, handling, and other expenses, with a method to identify direct versus shared costs. Helps estimate relevant product costs.
+- Marketing expenses: Product-level or campaign-level advertising and promotional costs, where attributable. Helps evaluate marketing's effect on profitability.
+- Inventory: Stock quantity, holding costs, and stockout information where available. Helps assess inventory costs and whether sales were constrained by availability.
+- Optional context: Season, promotions, supplier changes, and links to complementary products. Helps explain unusual results and strategic relationships.
+
+3. Analysis plan
+
+Step 1 — Collect and validate data
+Gather the relevant tables. Check missing values, duplicate transactions, invalid prices, inconsistent product IDs, and returns that cannot be matched to original sales.
+
+Step 2 — Calculate net revenue
+Net Revenue = Gross Sales Revenue − Discounts − Refunds
+Use consistent rules and ensure discounts or refunds are not counted twice.
+
+Step 3 — Calculate cost of goods sold and other relevant costs
+Cost of Goods Sold = Cost per Unit × Units Sold, adjusted for the store's accounting rules and returned inventory where appropriate.
+Separate variable costs, direct product costs, avoidable costs, and shared fixed overhead. Avoid double-counting expenses.
+
+Step 4 — Calculate profitability measures
+For each product, calculate net revenue, total profit using a clearly stated cost definition, profit margin, units sold, return rate, and contribution margin where possible.
+
+Step 5 — Classify and investigate results
+Group products into profitable, approximately break-even, and unprofitable categories. Investigate negative-profit products to understand whether losses are driven by costs, discounts, returns, low prices, or other factors.
+
+Step 6 — Compare products fairly
+Compare similar products over the same periods. Consider sales volume, category, seasonality, promotions, stock availability, and cost differences. A lower-revenue product may have a higher margin than a higher-revenue product.
+
+Step 7 — Validate findings
+Check calculations and unusual results. Compare multiple comparable periods and consider seasonality, one-off costs, stockouts, and changes in demand. Confirm that cost allocation assumptions are reasonable.
+
+Step 8 — Prepare recommendations
+Report the most profitable products, low-margin products, products with persistent losses, and products that may improve through pricing, cost, discount, or marketing changes. State assumptions and limitations.
+
+4. Decision criteria
+
+Do not recommend discontinuation based only on low sales or one period of negative profit.
+
+Consider:
+- Consistent negative profit across comparable periods.
+- Sales volume and expected future demand.
+- Product, shipping, storage, return, and marketing costs.
+- Whether costs can realistically be reduced or prices improved.
+- Strategic importance, including whether the product supports sales of complementary products.
+- Seasonality, promotions, stock availability, and other temporary effects.
+- The expected future contribution if the product is retained compared with the avoidable costs and benefits of discontinuation.
+
+Final decision
+Recommend discontinuation only when verified evidence suggests that future performance is unlikely to justify keeping the product, realistic improvement options have been evaluated, and strategic effects have been considered. Historical losses are important evidence, but they do not automatically determine the best future decision.

@@ -1,0 +1,29 @@
+The five steps for translating business problems:
+
+Step 1 — Identify the business goal
+What does the business want to improve?
+Examples: increase revenue, reduce costs, improve customer retention, or increase profit.
+
+
+
+Step 2 — Choose measurable metrics
+Decide how success or failure will be measured.
+Examples: revenue, conversion rate, profit margin, customer churn rate, or average order value.
+
+
+
+Step 3 — Define the scope
+Specify the time period, customers, products, regions, or business segments.
+Example: online sales in Lahore during the last three months.
+
+
+
+Step 4 — Define the analysis
+Decide what comparisons or investigations could answer the question.
+Example: compare revenue by product category and month.
+
+
+
+Step 5 — Define the decision
+What action might the business take based on the findings?
+Example: improve the availability of popular products or investigate declining categories.

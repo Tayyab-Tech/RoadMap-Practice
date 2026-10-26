@@ -1,0 +1,50 @@
+=============== Product Profitability Analysis ===============
+
+Business problem
+A store sells 100 products, but management suspects some products are unprofitable. Management wants to decide whether any products should be improved or discontinued.
+
+Your tasks
+1. Define at least three profitability or supporting metrics. For each, provide a formula, explain what it measures, and explain why it matters.
+2. Identify the necessary data fields or tables. Explain why each is required.
+3. Describe a step-by-step analysis plan, including data validation, revenue calculations, cost calculations, comparison, and validation.
+4. Define decision criteria for improving or discontinuing a product. Explain why low sales or one period of negative profit may not be enough.
+5. Identify assumptions and limitations that should appear in the final brief.
+
+Your answer:
+1. Metrics and formulas:
+- Metric 1:
+- Formula:
+- What it measures:
+- Why it matters:
+
+- Metric 2:
+- Formula:
+- What it measures:
+- Why it matters:
+
+- Metric 3:
+- Formula:
+- What it measures:
+- Why it matters:
+
+2. Required data and justification:
+- Data field/table 1:
+- Why it is needed:
+- Data field/table 2:
+- Why it is needed:
+- Data field/table 3:
+- Why it is needed:
+
+3. Analysis plan:
+Step 1:
+Step 2:
+Step 3:
+Step 4:
+Step 5:
+
+4. Decision criteria:
+- What evidence would support discontinuation?
+- What improvement options should be evaluated first?
+- What strategic effects should be considered?
+
+5. Assumptions and limitations:

@@ -1,0 +1,21 @@
+Order_ID,City,Category,Order_Status,Quantity,Weight
+1001,lahore,electronics,completed,2,500 g
+1002,Lahore ,Electronics ,Completed ,1,1 kg
+1003, LAHORE,ELECTRONICS,COMPLETED,3,250 g
+1004,LHR,Electronic,delivered,1,2 kg
+1005,karachi,clothing,pending,4,750 g
+1006,Karachi ,Clothing , Pending ,2,1.5 kg
+1007,KARACHI,CLOTHING,PENDING,1,1000 g
+1008,KHI,apparel,in progress,3,3 kg
+1009,islamabad,grocery,cancelled,5,500 g
+1010,Islamabad ,Grocery ,Cancelled ,2,2.5 kg
+1011,ISB,GROCERY,CANCELLED,1,750 g
+1012,isb,food,canceled,4,1 kg
+1013,lahore,electronics,shipped,2,1500 g
+1014,Karachi,clothing,processing,3,2 kg
+1015,unknown city,unknown category,unknown status,1,300 g
+1016, Peshawar ,Furniture,Returned,2,1 kg
+1017,PESHAWAR,furniture ,returned ,1,2000 g
+1018,Faisalabad,Grocery,Completed,5,0.5 kg
+1019,faisalabad ,electronics,Pending,2,750 g
+1020,Multan,Home & Kitchen,shipped ,3,1 kg

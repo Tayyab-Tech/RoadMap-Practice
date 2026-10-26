@@ -1,0 +1,6 @@
+Category,Order_Rows,Unique_Orders,Total_Quantity,Average_Quantity,Average_Weight_kg
+Clothing,5,5,19,3.8,0.6
+Electronics,5,5,8,1.6,1.7200000000000002
+Furniture,3,3,3,1.0,8.333333333333334
+Grocery,5,5,46,9.2,4.66
+Home & Kitchen,2,2,4,2.0,2.85

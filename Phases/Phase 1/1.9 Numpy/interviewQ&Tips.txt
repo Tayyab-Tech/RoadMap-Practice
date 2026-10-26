@@ -1,0 +1,98 @@
+Basic Interview Questions
+
+What is NumPy?
+Why is NumPy faster than Python lists?
+What is an ndarray?
+What is the difference between a Python list and a NumPy array?
+How do you create a NumPy array?
+What is the difference between 1D, 2D, and 3D arrays?
+What do shape, size, and ndim mean?
+How do you check the data type of a NumPy array?
+What is the difference between np.arange() and np.linspace()?
+How do you create an array of zeros and ones?
+
+
+Part 2: Indexing & Slicing
+
+How do you access an element from a 1D NumPy array?
+How do you access an element from a 2D array?
+What does arr[1, 2] mean?
+How do you select an entire row?
+How do you select an entire column?
+What is slicing in NumPy?
+What is boolean indexing?
+What is fancy indexing?
+What is the difference between arr[0] and arr[0, :]?
+How can you extract the diagonal of a matrix?
+
+
+Part 3: Shape & Reshaping
+
+What does reshape() do?
+What condition must be satisfied when reshaping an array?
+What happens if the new shape is incompatible with the number of elements?
+Difference between reshape() and flatten()?
+What is the difference between flatten() and ravel()?
+How do you convert a 1D array into a 2D array?
+What does -1 mean inside reshape()?
+What does .T do?
+How can you convert a 3 × 4 array into a 4 × 3 array?
+Can reshape() change the actual number of elements?
+
+
+Part 4: Broadcasting
+
+What is broadcasting in NumPy?
+Why is broadcasting useful?
+Can you add arrays with different shapes?
+What are the rules of broadcasting?
+Why does this work?
+a = np.array([[1,2,3],
+              [4,5,6]])
+
+b = np.array([10,20,30])
+
+a + b
+Why does this fail?
+a = np.ones((3,4))
+b = np.ones((3,))
+
+a + b
+What does scalar broadcasting mean?
+arr + 5
+How can broadcasting be used to apply different values to every column?
+How can broadcasting be used for normalization?
+What is the difference between broadcasting and vectorization?
+
+
+Part 5: Vector Operations
+
+What is vectorization?
+Why should you prefer vectorized operations over Python loops in NumPy?
+What is element-wise multiplication?
+Difference between:
+a * b
+
+and
+
+a @ b
+What is a dot product?
+What is a cross product?
+How do you calculate the magnitude of a vector?
+What does np.linalg.norm() do?
+How do you normalize a vector?
+How can you determine whether two vectors are perpendicular?
+
+
+Part 6: Important NumPy Functions
+
+Difference between np.zeros() and np.ones()?
+What does np.eye() create?
+Difference between np.arange() and np.linspace()?
+What does np.random.randint() do?
+What does np.sum() do?
+Difference between np.mean() and np.median()?
+What does np.std() calculate?
+What does np.argmax() return?
+Difference between np.max() and np.argmax()?
+What does np.where() do?

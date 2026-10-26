@@ -1,0 +1,21 @@
+Medium Level (1–8)
+
+Write unit tests for a function that adds two numbers.
+Test a function that checks whether a number is even or odd.
+Test a palindrome-checking function with different inputs.
+Write tests for a factorial function, including edge cases.
+Test a function that finds the maximum value in a list.
+Write tests for a password validation function.
+Test a student grade calculator for different score ranges.
+Write unit tests for a shopping cart total calculation with discounts.
+
+
+Interview / Hard Level (9–15)
+
+Write TDD tests before implementing a prime number checker.
+Test a bank account class covering deposits, withdrawals, and insufficient funds.
+Write tests for a file-reading function and verify it handles missing files correctly.
+Use mocking to test a function that fetches data from an API without making real network calls.
+Test a login function with valid credentials, invalid credentials, and empty inputs.
+Write tests for a JSON parser that validates both correct and malformed JSON.
+Design a complete test suite for a mini Library Management System covering book borrowing, returning, searching, and user validation.

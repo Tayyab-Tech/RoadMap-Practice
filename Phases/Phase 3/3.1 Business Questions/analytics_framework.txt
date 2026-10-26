@@ -1,0 +1,80 @@
+================================================================================
+                           DATA ANALYTICS FRAMEWORK
+================================================================================
+
+--------------------------------------------------------------------------------
+1. TYPES OF ANALYTICS FRAMEWORKS
+--------------------------------------------------------------------------------
+
+[1] Descriptive Analytics
+    * Core Focus : What happened?
+    * Summary    : Summarizes historical data using charts, graphs, and 
+                   dashboards to track past performance and baseline trends.
+
+[2] Diagnostic Analytics
+    * Core Focus : Why did it happen?
+    * Summary    : Identifies root causes, anomalies, and variable correlations 
+                   using drill-down analysis and statistical techniques.
+
+[3] Predictive Analytics
+    * Core Focus : What is likely to happen?
+    * Summary    : Forecasts future outcomes, risks, and demand using machine 
+                   learning algorithms and statistical modeling.
+
+[4] Prescriptive Analytics
+    * Core Focus : What action should be taken?
+    * Summary    : Recommends optimal decisions and next steps using simulation 
+                   models and optimization algorithms.
+
+[5] Cognitive Analytics
+    * Core Focus : How can human reasoning be mimicked?
+    * Summary    : Employs AI, machine learning, and natural language processing 
+                   to evaluate complex structured and unstructured datasets.
+
+
+--------------------------------------------------------------------------------
+2. IMPLEMENTATION STEPS
+--------------------------------------------------------------------------------
+
+Step 01. Define Objectives
+         Set clear business goals, questions, and success metrics upfront.
+
+Step 02. Collect Data
+         Gather relevant datasets from internal and external sources.
+
+Step 03. Preprocess Data
+         Handle missing values, remove duplicates, and normalize formats.
+
+Step 04. Exploratory Data Analysis (EDA)
+         Uncover distributions, patterns, and initial relationships.
+
+Step 05. Select Techniques
+         Choose statistical or ML methods tailored to the target problem.
+
+Step 06. Apply Framework
+         Execute the analysis, build models, and run validations.
+
+Step 07. Interpret Results
+         Translate technical outputs into practical business insights.
+
+Step 08. Communicate Findings
+         Deliver actionable reports and interactive visual dashboards.
+
+Step 09. Evaluate & Iterate
+         Collect stakeholder feedback and fine-tune models over time.
+
+Step 10. Implement & Monitor
+         Deploy recommendations into production and track performance.
+
+
+--------------------------------------------------------------------------------
+3. PRACTICAL TIPS
+--------------------------------------------------------------------------------
+
+* Align with Decisions : Ensure every metric directly supports an action.
+* Keep It Simple       : Do not use complex ML when descriptive analysis suffices.
+* Quality Over Volume  : Prioritize clean, reliable data over massive dirty data.
+* Iterate Continuously : Re-validate assumptions and refresh models frequently.
+* Tooling & Evolution  : Stay updated with modern cloud and automation tools.
+
+================================================================================

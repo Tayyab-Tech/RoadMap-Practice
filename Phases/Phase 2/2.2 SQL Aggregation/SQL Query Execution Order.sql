@@ -1,0 +1,17 @@
+-- 1
+-- FROM — Select the source table
+-- 2
+-- WHERE — Filter individual rows
+-- 3
+-- GROUP BY — Create groups
+-- 4
+-- Aggregate functions — Calculate COUNT, SUM, AVG
+-- 5
+-- HAVING — Filter groups
+-- 6
+-- SELECT — Choose displayed columns
+-- 7
+-- ORDER BY — Sort results
+-- 8
+-- LIMIT — Restrict the number of rows
+

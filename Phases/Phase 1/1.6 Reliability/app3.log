@@ -1,0 +1,14 @@
+2026-08-04 12:51:49,393 [INFO] __main__: Program Started
+2026-08-04 12:51:49,394 [WARNING] __main__: This is a warning
+2026-08-04 12:51:49,394 [ERROR] __main__: This is an error
+2026-08-04 12:53:55,668 [ERROR] __main__: Invalid Operator
+2026-08-04 12:54:12,873 [ERROR] __main__: could not convert string to float: 'df'
+2026-08-04 12:58:27,882 [WARNING] __main__: Failed login attempt: dfs
+2026-08-04 12:59:00,709 [INFO] __main__: Successful login : admin
+2026-08-04 13:06:34,989 [WARNING] __main__: Failed login attempt : sa
+2026-08-04 13:06:34,990 [INFO] __main__: Data written to data.txt
+2026-08-04 13:06:35,011 [INFO] __main__: Data read from data.txt
+2026-08-04 13:06:50,621 [INFO] __main__: Data written to data.txt
+2026-08-04 13:06:50,624 [INFO] __main__: Data read from data.txt
+2026-08-04 13:06:55,689 [INFO] __main__: Data written to data.txt
+2026-08-04 13:06:55,693 [INFO] __main__: Data read from data.txt

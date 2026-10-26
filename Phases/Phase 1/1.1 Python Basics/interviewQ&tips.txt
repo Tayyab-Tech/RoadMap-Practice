@@ -1,0 +1,649 @@
+Part 1 – Theory Questions
+====Variables====
+What is a variable?
+Why do we use variables?
+Can a variable's value change?
+What are the rules for naming variables in Python?
+What happens if you use a keyword as a variable name?
+What is the difference between = and ==?
+
+====Data Types====
+What are Python's built-in data types?
+What is the difference between int and float?
+What is the difference between str and int?
+What is a Boolean?
+How do you check the data type of a variable?
+What type does input() return?
+
+====Type Conversion====
+Why do we use int()?
+When do we use float()?
+What is type casting?
+What happens if you do:
+int("abc")
+Difference between implicit and explicit type conversion?
+
+====Input/Output====
+How do you take user input?
+How do you print multiple variables?
+What are f-strings?
+Difference between:
+print(a, b)
+and
+print(f"{a} {b}")
+
+====Operators====
+Name all operator types in Python.
+Difference between / and //.
+Difference between % and /.
+What does ** do?
+What does % return?
+What is operator precedence?
+Lists (Basic)
+Difference between append() and +=.
+What does len() do?
+What does sum() do?
+Difference between:
+marks.append(21)
+and
+marks += "21"
+
+
+
+Part 2 – Predict the Output
+
+Q1
+a = 10
+b = 20
+print(a + b)
+output : 30
+Q2
+x = "10"
+y = "20"
+print(x + y)
+output : 1020
+Q3
+x = int("10")
+y = 20
+print(x + y)
+output : 30
+Q4
+a = 10
+print(a * 3)
+output : 30
+Q5
+print(10 % 3)
+output : 1
+Q6
+print(10 // 3)
+output : 3
+Q7
+print(2 ** 4)
+output : 16
+Q8
+numbers = [10, 20, 30]
+print(sum(numbers))
+output : 60
+Q9
+numbers = [10, 20, 30]
+print(len(numbers))
+output : 3
+Q10
+marks = []
+marks.append(90)
+marks.append(80)
+print(sum(marks))
+output : 170
+
+Part 3 – Coding Questions
+
+Don't memorize. Solve them yourself.
+
+Swap two numbers.
+Find total marks.
+Find average marks.
+Find percentage.
+Convert Celsius to Fahrenheit.
+Convert hours into minutes.
+Convert minutes into hours and remaining minutes.
+Convert seconds into hours, minutes, and seconds.
+Calculate electricity bill.
+Calculate shopping bill with tax.
+Calculate BMI.
+Salary calculator.
+Currency converter.
+Fuel cost calculator.
+Student report card.
+
+
+Part 5 – Rapid Fire
+
+Answer these in under 5 seconds each.
+
+What does input() return?
+Difference between = and ==?
+Difference between / and //?
+What does % do?
+What does ** do?
+How do you convert string to integer?
+How do you find list length?
+How do you find list sum?
+Difference between append() and +=?
+What is an f-string?
+How do you check a variable's type?
+What is a Boolean?
+What does len() return?
+Can a variable change its value?
+What is type casting?
+
+
+====================================================================================================
+
+            ===================     Solution     =======================
+
+Variables :
+
+1. What is a variable?
+A variable is a named location in memory that stores a value. We can use the variable name to access or modify that value.
+Example:
+age = 22
+name = "Tayyab"
+Here, age and name are variables.
+
+
+2. Why do we use variables?
+We use variables to:
+Store data.
+Reuse values multiple times.
+Make programs easier to read and maintain.
+Avoid writing the same value repeatedly.
+Example:
+Instead of writing 5000 everywhere:
+salary = 5000
+Now use salary wherever needed.
+
+3. Can a variable's value change?
+Yes. In Python, variables are mutable references, so you can assign a new value at any time.
+Example:
+age = 20
+age = 21
+print(age)
+Output:
+21
+
+
+4. What are the rules for naming variables in Python?
+The main rules are:
+✅ Must start with a letter (a-z, A-Z) or underscore (_).
+✅ Can contain letters, numbers, and underscores.
+❌ Cannot start with a number.
+❌ Cannot contain spaces.
+❌ Cannot use special characters like @, #, %, -, etc.
+❌ Cannot use Python keywords.
+Valid examples:
+name
+student_name
+_age
+marks1
+Invalid examples:
+1name
+student name
+total-marks
+class
+
+
+5. What happens if you use a keyword as a variable name?
+Python raises a SyntaxError because keywords are reserved words with predefined meanings.
+Example:
+class = "Python"
+Output:
+SyntaxError
+Keywords include:
+if
+else
+for
+while
+class
+def
+True
+False
+None
+
+
+6. What is the difference between = and ==?
+=                              |  ==
+Assignment operator	           |   Comparison operator
+Assigns a value to a variable  |   Checks whether two values are equal
+Does not return True or False  |   Returns True or False
+Assignment (=):
+age = 22
+This stores 22 in the variable age.
+Comparison (==):
+print(age == 22)
+Output:
+True
+
+
+
+
+
+==========================================================================================================
+
+
+Data Types:
+
+1. What are Python's built-in data types?
+Python has several built-in data types. The most common are:
+| Data Type  | Description                           | Example           |
+| ---------- | ------------------------------------- | ----------------- |
+| `int`      | Whole numbers                         | `10`, `-5`        |
+| `float`    | Decimal numbers                       | `3.14`, `10.5`    |
+| `str`      | Text/String                           | `"Hello"`         |
+| `bool`     | True or False                         | `True`, `False`   |
+| `list`     | Ordered, mutable collection           | `[1, 2, 3]`       |
+| `tuple`    | Ordered, immutable collection         | `(1, 2, 3)`       |
+| `set`      | Unordered collection of unique values | `{1, 2, 3}`       |
+| `dict`     | Key-value pairs                       | `{"name": "Ali"}` |
+| `NoneType` | Represents no value                   | `None`            |
+Example:
+age = 22          # int
+price = 99.99     # float
+name = "Tayyab"   # str
+is_student = True # bool
+
+
+2. What is the difference between int and float?
+| `int`                | `float`                |
+| -------------------- | ---------------------- |
+| Stores whole numbers | Stores decimal numbers |
+| No decimal point     | Has a decimal point    |
+Example:
+age = 22
+price = 22.5
+Here:
+22 is an int
+22.5 is a float
+
+
+3. What is the difference between str and int?
+| `str`                                  | `int`                      |
+| -------------------------------------- | -------------------------- |
+| Stores text                            | Stores numbers             |
+| Written inside quotes                  | No quotes                  |
+| Cannot be used directly for arithmetic | Can be used for arithmetic |
+Example:
+a = "10"
+b = 10
+print(a + a)
+Output:
+1010
+print(b + b)
+Output:
+20
+
+
+4. What is a Boolean?
+A Boolean is a data type that represents one of two values:
+True
+False
+It is commonly used in conditions and comparisons.
+Example:
+is_logged_in = True
+is_admin = False
+
+
+5. How do you check the data type of a variable?
+Use the built-in type() function.
+Example:
+age = 22
+print(type(age))
+Output:
+<class 'int'>
+Another example:
+print(type("Hello"))
+Output:
+<class 'str'>
+
+
+6. What type does input() return?
+The input() function always returns a string (str), even if the user enters a number.
+Example:
+age = input("Enter age: ")
+print(type(age))
+If the user enters:
+22
+The output will be:
+<class 'str'>
+If you want to use it as a number, convert it:
+age = int(input("Enter age: "))
+Now age is an integer.
+
+
+
+
+==========================================================================================================
+
+
+
+Type Conversion:
+
+1. Why do we use int()?
+We use int() to convert a value into an integer (whole number).
+It is commonly used because input() returns a string.
+Example:
+age = int(input("Enter your age: "))
+If the user enters:
+22
+Then age becomes an integer (int) instead of a string (str).
+Another example:
+x = int("100")
+print(x)
+Output:
+100
+
+
+2. When do we use float()?
+We use float() to convert a value into a floating-point (decimal) number.
+Example:
+price = float(input("Enter price: "))
+If the user enters:
+99.99
+Then price becomes a float.
+Another example:
+num = float("10")
+print(num)
+Output:
+10.0
+
+
+3. What is type casting?
+Type casting is the process of converting one data type into another.
+Type casting is the process of converting a value from one data type to another, either automatically by Python (implicit) or manually using functions like int(), float(), or str() (explicit)
+Examples:
+num = int("25")
+String → Integer
+price = float("10")
+String → Float
+text = str(100)
+Integer → String
+
+
+4. What happens if you do: int("abc")
+Python raises a ValueError because "abc" is not a valid integer.
+Example:
+x = int("abc")
+Output:
+ValueError: invalid literal for int() with base 10: 'abc'
+
+
+5. Difference between implicit and explicit type conversion?
+| Implicit Type Conversion                     | Explicit Type Conversion                        |
+| -------------------------------------------- | ----------------------------------------------- |
+| Done automatically by Python                 | Done manually by the programmer                 |
+| No conversion function is needed             | Uses functions like `int()`, `float()`, `str()` |
+| Usually happens during compatible operations | Used when you want a specific data type         |
+Implicit Example
+a = 10
+b = 2.5
+c = a + b
+print(c)
+print(type(c))
+Output:
+12.5
+<class 'float'>
+Python automatically converts 10 (int) to 10.0 (float).
+Explicit Example
+a = "10"
+b = int(a)
+print(type(b))
+Output:
+<class 'int'>
+Here, the programmer explicitly converts the string to an integer.
+
+
+
+==========================================================================================================
+
+
+
+Input/Output: 
+
+1. How do you take user input?
+We use the input() function to take input from the user.
+Example:
+name = input("Enter your name: ")
+If you need a number:
+age = int(input("Enter your age: "))
+
+
+2. How do you print multiple variables?
+You can print multiple variables by separating them with commas.
+Example:
+name = "Tayyab"
+age = 22
+print(name, age)
+Output:
+Tayyab 22
+
+
+3. What are f-strings?
+Answer:
+f-strings (formatted strings) are a way to insert variables or expressions directly inside a string using {}.
+They were introduced in Python 3.6 and make string formatting easier and more readable.
+We use f-strings to create readable and formatted output by embedding variables and expressions directly inside a string. They are concise, easy to understand, and recommended over older formatting methods.
+Example:
+name = "Tayyab"
+age = 22
+print(f"My name is {name} and I am {age} years old.")
+Output:
+My name is Tayyab and I am 22 years old.
+You can also use expressions:
+a = 10
+b = 20
+print(f"Sum = {a + b}")
+Output:
+Sum = 30
+
+
+4. Difference between: print(a, b) and print(f"{a} {b}")
+print(a, b)	print(f"{a} {b}")
+| `print(a, b)`                                          | `print(f"{a} {b}")`                  |
+| ------------------------------------------------------ | ------------------------------------ |
+| Prints multiple values separated by a space by default | Prints a formatted string            |
+| Best for simple output                                 | Best for readable, customized output |
+| Cannot easily add descriptive text                     | Easily combines text and variables   |
+Example
+name = "Tayyab"
+age = 22
+print(name, age)
+Output:
+Tayyab 22
+Using an f-string:
+print(f"Name: {name}, Age: {age}")
+Output:
+Name: Tayyab, Age: 22
+
+
+
+
+=====================================================================================================
+
+
+
+Operators : 
+
+1. Name all operator types in Python.
+Python has the following main types of operators:
+| Operator Type                     | Examples                            |                         |
+| --------------------------------- | ----------------------------------- | ----------------------- |
+| Arithmetic Operators              | `+`, `-`, `*`, `/`, `//`, `%`, `**` |                         |
+| Assignment Operators              | `=`, `+=`, `-=`, `*=`, `/=`         |                         |
+| Comparison (Relational) Operators | `==`, `!=`, `>`, `<`, `>=`, `<=`    |                         |
+| Logical Operators                 | `and`, `or`, `not`                  |                         |
+| Bitwise Operators                 | `&`, `                              | `, `^`, `~`, `<<`, `>>` |
+| Membership Operators              | `in`, `not in`                      |                         |
+| Identity Operators                | `is`, `is not`                      |                         |
+
+
+2. Difference between / and //
+| `/`                               | `//`                                                            |
+| --------------------------------- | --------------------------------------------------------------- |
+| Division operator                 | Floor division operator                                         |
+| Returns the exact division result | Returns the quotient without the fractional part (rounded down) |
+| Result is usually a float         | Result is an integer if both operands are integers              |
+Example
+print(10 / 3)
+Output:
+3.3333333333333335
+print(10 // 3)
+Output:
+3
+Another example:
+print(7 // 2)
+Output:
+3
+
+
+3. Difference between % and /
+| `%`                   | `/`                  |
+| --------------------- | -------------------- |
+| Modulus operator      | Division operator    |
+| Returns the remainder | Returns the quotient |
+Example
+print(10 / 3)
+Output:
+3.3333333333333335
+print(10 % 3)
+Output:
+1
+Because:
+10 = (3 × 3) + 1
+The remainder is 1.
+
+
+4. What does ** do?
+** is the exponentiation (power) operator.
+It raises a number to the power of another number.
+Example
+print(2 ** 3)
+Output:
+8
+Because:
+2 × 2 × 2 = 8
+Another example:
+print(5 ** 2)
+Output:
+25
+
+
+5. What does % return?
+The % operator returns the remainder after division.
+Example
+print(15 % 4)
+Output:
+3
+Because:
+15 = (4 × 3) + 3
+Another example:
+print(20 % 5)
+Output:
+0
+The remainder is 0, so 20 is divisible by 5.
+
+
+6. What is operator precedence?
+Operator precedence is the order in which Python evaluates operators in an expression.
+Operators with higher precedence are evaluated before operators with lower precedence.
+Operator precedence is the set of rules that determines the order in which Python evaluates operators in an expression. Operators with higher precedence are evaluated before those with lower precedence, unless parentheses are used to change the order.
+Example
+print(2 + 3 * 4)
+Output:
+14
+Python first performs multiplication:
+3 × 4 = 12
+Then addition:
+2 + 12 = 14
+If you want addition first, use parentheses:
+print((2 + 3) * 4)
+Output:
+20
+Common Precedence Order (High → Low)
+| Priority | Operator                          |
+| -------- | --------------------------------- |
+| 1        | `()` Parentheses                  |
+| 2        | `**` Exponent                     |
+| 3        | `*`, `/`, `//`, `%`               |
+| 4        | `+`, `-`                          |
+| 5        | Comparison (`==`, `>`, `<`, etc.) |
+| 6        | `not`                             |
+| 7        | `and`                             |
+| 8        | `or`                              |
+
+
+
+=========================================================================================================
+
+
+
+Lists (Basic) :
+
+1. Difference between append() and +=
+Both are used to add elements to a list, but they work differently.
+append()	+=
+Adds one element to the end of the list	Adds all elements from another iterable to the list
+The entire object becomes one element	Each element of the iterable is added separately
+Example 1: append()
+marks = [70, 80]
+marks.append(90)
+print(marks)
+Output:
+[70, 80, 90]
+Example 2: +=
+marks = [70, 80]
+marks += [90, 100]
+print(marks)
+Output:
+[70, 80, 90, 100]
+
+
+2. What does len() do?
+The len() function returns the number of elements in a list (or the length of a string, tuple, etc.).
+Example
+marks = [70, 84, 93, 61, 89]
+print(len(marks))
+Output:
+5
+There are 5 elements in the list.
+
+
+3. What does sum() do?
+The sum() function returns the sum of all numeric elements in a list.
+Example
+marks = [70, 84, 93, 61, 89]
+print(sum(marks))
+Output:
+397
+
+
+4. Difference between: marks.append(21) and marks += "21"
+marks.append(21)
+This adds 21 as a single element.
+marks = []
+marks.append(21)
+print(marks)
+Output:
+[21]
+marks += "21"
+A string is an iterable, so Python adds each character separately.
+marks = []
+marks += "21"
+print(marks)
+Output:
+['2', '1']
+Another Example
+marks = []
+marks += [21]
+print(marks)
+Output:
+[21]
+Here, [21] is a list, so += adds its single element (21).

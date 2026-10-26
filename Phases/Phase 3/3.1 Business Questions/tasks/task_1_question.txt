@@ -1,0 +1,29 @@
+============= Retail Sales Analysis ===========
+
+Business problem
+A retail company says its sales have dropped recently. Management wants to understand what is happening and decide what actions to take.
+
+Your tasks
+1. Write one primary, measurable business question.
+2. Select at least three metrics. Define what each measures and how it would be calculated.
+3. Define a comparison period. State the exact periods and explain why they are appropriate.
+4. Identify two useful segments (for example, product, customer, channel, or geographic groups) and explain why they matter.
+5. State what the final analysis brief should deliver.
+
+Do not assume the cause of the decline before analyzing the evidence.
+
+Your answer:
+1. Primary business question:
+
+2. Metrics:
+- Metric 1:
+- Metric 2:
+- Metric 3:
+
+3. Comparison period:
+
+4. Two useful segments:
+- Segment 1:
+- Segment 2:
+
+5. Expected deliverable and decision:

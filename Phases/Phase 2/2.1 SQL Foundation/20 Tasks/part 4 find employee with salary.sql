@@ -1,0 +1,3 @@
+select *
+from employee
+where salary > 80000;

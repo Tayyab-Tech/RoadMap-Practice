@@ -1,0 +1,26 @@
+Customer,Purchase,IQR_Outlier,Z_Score,Z_Outlier,Potential_Outlier,Investigation_Status
+Customer_1,1000,False,-0.22624636004553547,False,False,Not flagged
+Customer_2,1200,False,-0.20532861226026036,False,False,Not flagged
+Customer_3,1100,False,-0.21578748615289792,False,False,Not flagged
+Customer_4,1300,False,-0.19486973836762284,False,False,Not flagged
+Customer_5,1250,False,-0.20009917531394159,False,False,Not flagged
+Customer_6,1150,False,-0.21055804920657914,False,False,Not flagged
+Customer_7,1050,False,-0.2210169230992167,False,False,Not flagged
+Customer_8,1400,False,-0.18441086447498528,False,False,Not flagged
+Customer_9,1180,False,-0.20742038703878787,False,False,Not flagged
+Customer_10,1350,False,-0.18964030142130406,False,False,Not flagged
+Customer_11,1220,False,-0.20323683748173285,False,False,Not flagged
+Customer_12,1080,False,-0.21787926093142543,False,False,Not flagged
+Customer_13,1280,False,-0.19696151314615032,False,False,Not flagged
+Customer_14,1160,False,-0.20951216181731538,False,False,Not flagged
+Customer_15,1320,False,-0.19277796358909532,False,False,Not flagged
+Customer_16,1020,False,-0.22415458526700796,False,False,Not flagged
+Customer_17,1240,False,-0.20114506270320534,False,False,Not flagged
+Customer_18,1380,False,-0.1865026392535128,False,False,Not flagged
+Customer_19,1120,False,-0.2136957113743704,False,False,Not flagged
+Customer_20,1260,False,-0.19905328792467783,False,False,Not flagged
+Customer_21,1190,False,-0.20637449964952412,False,False,Not flagged
+Customer_22,1310,False,-0.19382385097835908,False,False,Not flagged
+Customer_23,1070,False,-0.21892514832068918,False,False,Not flagged
+Customer_24,1450,False,-0.1791814275286665,False,False,Not flagged
+Customer_25,50000,True,4.898601847346865,True,True,Needs verification

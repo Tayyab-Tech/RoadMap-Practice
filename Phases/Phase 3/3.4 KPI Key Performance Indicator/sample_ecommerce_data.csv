@@ -1,0 +1,121 @@
+order_id,order_date,customer_id,product_category,quantity,unit_price,unit_cost,discount_pct,shipping_fee,order_status,is_returned,marketing_channel,marketing_cost
+ORD1001,2026-03-18,CUST002,Clothing,1,58.49,44.45,0.15,9.99,Completed,False,Paid Search,17.91
+ORD1002,2026-03-09,CUST046,Electronics,2,287.01,157.8,0.1,9.99,Completed,False,Social Ads,19.49
+ORD1003,2026-01-25,CUST018,Clothing,1,45.22,30.55,0.15,4.99,Completed,False,Paid Search,7.71
+ORD1004,2026-01-18,CUST062,Beauty,4,14.0,7.0,0.1,9.99,Completed,False,Organic,0.0
+ORD1005,2026-02-11,CUST009,Clothing,4,83.84,44.41,0.0,0.0,Completed,True,Organic,0.0
+ORD1006,2026-03-16,CUST024,Electronics,3,94.14,46.69,0.1,0.0,Cancelled,False,Social Ads,10.48
+ORD1007,2026-01-21,CUST019,Home,3,155.88,76.86,0.0,9.99,Completed,False,Organic,0.0
+ORD1008,2026-01-09,CUST063,Home,4,25.98,15.38,0.1,4.99,Completed,False,Organic,0.0
+ORD1009,2026-01-29,CUST061,Electronics,2,70.73,51.85,0.2,9.99,Completed,False,Referral,0.0
+ORD1010,2026-03-17,CUST035,Beauty,3,52.4,27.27,0.1,6.99,Completed,False,Paid Search,19.29
+ORD1011,2026-01-31,CUST028,Clothing,3,32.78,17.11,0.05,6.99,Completed,False,Paid Search,7.42
+ORD1012,2026-03-02,CUST069,Clothing,3,41.6,28.53,0.0,4.99,Cancelled,False,Referral,0.0
+ORD1013,2026-02-19,CUST040,Home,4,104.74,76.94,0.1,4.99,Completed,False,Email,0.0
+ORD1014,2026-03-24,CUST010,Home,1,137.05,74.11,0.1,4.99,Completed,False,Email,0.0
+ORD1015,2026-03-28,CUST072,Home,3,135.57,68.51,0.2,0.0,Completed,False,Organic,0.0
+ORD1016,2026-03-06,CUST045,Beauty,2,52.61,37.8,0.2,6.99,Completed,False,Organic,0.0
+ORD1017,2026-03-07,CUST058,Electronics,3,93.1,60.47,0.1,6.99,Completed,False,Paid Search,12.93
+ORD1018,2026-03-06,CUST007,Beauty,3,42.18,32.03,0.0,4.99,Completed,True,Organic,0.0
+ORD1019,2026-03-15,CUST058,Home,3,143.44,97.74,0.05,4.99,Completed,False,Referral,0.0
+ORD1020,2026-02-19,CUST033,Clothing,4,36.53,19.26,0.0,4.99,Completed,False,Referral,0.0
+ORD1021,2026-02-28,CUST074,Clothing,1,55.13,41.95,0.15,6.99,Completed,False,Paid Search,10.15
+ORD1022,2026-02-13,CUST045,Beauty,4,14.75,10.84,0.1,9.99,Completed,False,Organic,0.0
+ORD1023,2026-01-02,CUST023,Beauty,3,33.9,24.67,0.0,0.0,Cancelled,False,Paid Search,11.4
+ORD1024,2026-01-04,CUST008,Sports,3,28.82,22.45,0.15,9.99,Cancelled,False,Paid Search,18.9
+ORD1025,2026-01-23,CUST019,Sports,1,96.27,48.82,0.15,6.99,Completed,False,Organic,0.0
+ORD1026,2026-01-01,CUST001,Electronics,4,101.44,76.4,0.1,9.99,Completed,False,Organic,0.0
+ORD1027,2026-03-02,CUST061,Electronics,4,288.46,159.1,0.15,6.99,Completed,False,Organic,0.0
+ORD1028,2026-01-11,CUST010,Sports,1,102.27,74.8,0.0,9.99,Completed,False,Organic,0.0
+ORD1029,2026-01-05,CUST015,Home,3,120.06,88.28,0.0,6.99,Completed,False,Email,0.0
+ORD1030,2026-01-20,CUST067,Clothing,1,88.46,58.69,0.0,6.99,Completed,False,Social Ads,3.8
+ORD1031,2026-01-23,CUST048,Beauty,2,13.23,7.08,0.2,0.0,Completed,False,Paid Search,17.9
+ORD1032,2026-02-09,CUST071,Home,2,171.26,97.69,0.1,0.0,Cancelled,False,Social Ads,15.34
+ORD1033,2026-03-27,CUST021,Electronics,2,165.25,102.83,0.0,6.99,Completed,False,Organic,0.0
+ORD1034,2026-03-27,CUST045,Clothing,3,59.66,40.0,0.05,4.99,Completed,False,Paid Search,7.13
+ORD1035,2026-02-23,CUST053,Clothing,4,44.64,27.78,0.0,0.0,Completed,True,Social Ads,13.75
+ORD1036,2026-02-17,CUST028,Home,3,69.23,49.58,0.1,6.99,Completed,False,Paid Search,14.89
+ORD1037,2026-01-23,CUST024,Home,4,161.6,122.22,0.1,6.99,Completed,False,Paid Search,18.2
+ORD1038,2026-01-07,CUST022,Beauty,2,14.6,7.32,0.15,4.99,Completed,False,Organic,0.0
+ORD1039,2026-03-05,CUST065,Clothing,2,36.48,25.64,0.0,0.0,Completed,False,Email,0.0
+ORD1040,2026-01-07,CUST075,Clothing,3,58.87,30.37,0.05,0.0,Completed,False,Referral,0.0
+ORD1041,2026-03-02,CUST016,Beauty,2,47.2,32.64,0.05,4.99,Completed,False,Social Ads,3.2
+ORD1042,2026-03-14,CUST075,Home,2,44.88,32.8,0.2,0.0,Completed,False,Social Ads,18.94
+ORD1043,2026-03-24,CUST012,Electronics,3,161.7,81.5,0.15,4.99,Completed,False,Paid Search,11.92
+ORD1044,2026-03-07,CUST037,Electronics,1,53.84,29.6,0.0,9.99,Completed,False,Paid Search,14.14
+ORD1045,2026-02-25,CUST005,Electronics,2,301.51,202.4,0.1,0.0,Completed,False,Social Ads,17.5
+ORD1046,2026-03-04,CUST064,Clothing,3,38.4,28.16,0.05,6.99,Completed,False,Email,0.0
+ORD1047,2026-02-16,CUST008,Home,2,113.11,83.15,0.05,9.99,Completed,False,Paid Search,13.1
+ORD1048,2026-01-24,CUST002,Clothing,4,61.2,32.64,0.05,9.99,Completed,False,Organic,0.0
+ORD1049,2026-01-16,CUST053,Sports,3,53.44,35.25,0.0,4.99,Completed,True,Organic,0.0
+ORD1050,2026-02-16,CUST055,Home,3,118.5,73.86,0.15,9.99,Completed,False,Referral,0.0
+ORD1051,2026-03-28,CUST050,Sports,3,123.35,63.43,0.1,9.99,Completed,False,Paid Search,13.51
+ORD1052,2026-01-27,CUST004,Sports,1,51.03,35.73,0.1,9.99,Completed,False,Paid Search,5.35
+ORD1053,2026-02-28,CUST007,Beauty,4,64.18,39.76,0.2,4.99,Completed,False,Paid Search,18.08
+ORD1054,2026-02-03,CUST009,Home,3,167.8,121.95,0.0,9.99,Completed,False,Paid Search,3.93
+ORD1055,2026-02-04,CUST004,Beauty,4,52.1,38.54,0.1,6.99,Completed,False,Email,0.0
+ORD1056,2026-03-10,CUST031,Clothing,1,78.93,37.99,0.1,6.99,Completed,False,Social Ads,3.56
+ORD1057,2026-03-23,CUST023,Sports,3,44.71,32.9,0.05,6.99,Completed,False,Email,0.0
+ORD1058,2026-03-02,CUST026,Home,2,62.52,46.64,0.0,4.99,Completed,False,Organic,0.0
+ORD1059,2026-01-11,CUST044,Beauty,2,64.93,36.94,0.05,9.99,Completed,False,Organic,0.0
+ORD1060,2026-01-10,CUST028,Sports,4,89.4,53.44,0.2,6.99,Completed,False,Paid Search,5.55
+ORD1061,2026-03-21,CUST072,Electronics,2,45.48,28.01,0.1,0.0,Completed,True,Paid Search,10.99
+ORD1062,2026-01-28,CUST040,Beauty,3,24.22,18.14,0.0,6.99,Completed,False,Paid Search,20.27
+ORD1063,2026-02-01,CUST066,Beauty,1,45.25,25.78,0.0,6.99,Completed,False,Paid Search,5.95
+ORD1064,2026-02-23,CUST051,Clothing,1,73.77,52.76,0.05,6.99,Completed,False,Paid Search,21.9
+ORD1065,2026-02-08,CUST049,Beauty,3,52.89,28.33,0.1,9.99,Completed,False,Organic,0.0
+ORD1066,2026-01-27,CUST004,Sports,4,69.12,33.92,0.2,6.99,Completed,False,Organic,0.0
+ORD1067,2026-03-18,CUST009,Clothing,3,47.5,30.15,0.05,0.0,Completed,False,Organic,0.0
+ORD1068,2026-01-14,CUST001,Clothing,4,66.46,36.03,0.05,0.0,Completed,False,Paid Search,10.92
+ORD1069,2026-02-19,CUST059,Electronics,2,40.38,25.54,0.05,9.99,Completed,False,Paid Search,11.2
+ORD1070,2026-03-08,CUST025,Beauty,3,26.38,14.58,0.05,4.99,Completed,False,Social Ads,7.34
+ORD1071,2026-01-29,CUST011,Sports,2,72.6,50.35,0.0,0.0,Completed,False,Organic,0.0
+ORD1072,2026-01-08,CUST043,Sports,1,38.54,18.86,0.0,0.0,Completed,False,Social Ads,7.59
+ORD1073,2026-03-22,CUST058,Home,3,18.77,13.81,0.1,9.99,Completed,False,Organic,0.0
+ORD1074,2026-01-08,CUST028,Sports,2,129.85,80.03,0.1,4.99,Completed,False,Referral,0.0
+ORD1075,2026-03-16,CUST006,Beauty,1,53.56,35.36,0.0,4.99,Completed,False,Paid Search,9.04
+ORD1076,2026-03-16,CUST024,Electronics,3,45.9,24.31,0.1,4.99,Completed,False,Social Ads,17.03
+ORD1077,2026-03-13,CUST039,Sports,1,30.75,16.09,0.1,6.99,Completed,False,Organic,0.0
+ORD1078,2026-02-21,CUST068,Sports,2,17.07,13.28,0.1,0.0,Completed,False,Organic,0.0
+ORD1079,2026-01-31,CUST050,Sports,2,92.72,52.1,0.0,6.99,Completed,False,Social Ads,8.6
+ORD1080,2026-02-25,CUST046,Beauty,1,41.96,23.05,0.15,0.0,Completed,False,Organic,0.0
+ORD1081,2026-03-06,CUST074,Home,3,127.77,89.15,0.1,4.99,Completed,False,Email,0.0
+ORD1082,2026-03-11,CUST067,Clothing,4,12.97,9.32,0.1,6.99,Completed,False,Paid Search,4.79
+ORD1083,2026-03-24,CUST065,Clothing,1,23.65,18.17,0.0,6.99,Completed,False,Organic,0.0
+ORD1084,2026-01-08,CUST056,Sports,1,73.73,51.61,0.15,0.0,Completed,False,Paid Search,12.82
+ORD1085,2026-03-19,CUST060,Beauty,3,40.49,20.71,0.2,9.99,Completed,False,Email,0.0
+ORD1086,2026-03-25,CUST067,Electronics,1,270.52,131.73,0.2,0.0,Completed,False,Paid Search,16.67
+ORD1087,2026-02-15,CUST036,Clothing,3,59.48,38.92,0.05,4.99,Completed,False,Social Ads,20.77
+ORD1088,2026-01-03,CUST072,Electronics,2,162.17,84.22,0.0,4.99,Completed,False,Social Ads,9.45
+ORD1089,2026-03-29,CUST014,Clothing,1,70.77,52.67,0.0,0.0,Completed,False,Organic,0.0
+ORD1090,2026-01-23,CUST049,Home,1,60.03,29.63,0.05,4.99,Completed,True,Referral,0.0
+ORD1091,2026-03-11,CUST068,Home,4,58.89,33.47,0.15,0.0,Completed,False,Email,0.0
+ORD1092,2026-02-08,CUST008,Sports,3,134.12,67.27,0.0,9.99,Completed,False,Paid Search,13.51
+ORD1093,2026-01-10,CUST064,Beauty,3,38.91,20.61,0.0,6.99,Completed,False,Organic,0.0
+ORD1094,2026-01-03,CUST058,Home,3,65.96,39.01,0.05,6.99,Completed,False,Email,0.0
+ORD1095,2026-01-17,CUST064,Electronics,3,77.4,57.96,0.0,9.99,Completed,False,Organic,0.0
+ORD1096,2026-02-21,CUST066,Electronics,3,179.46,99.35,0.1,4.99,Completed,False,Email,0.0
+ORD1097,2026-01-07,CUST067,Clothing,3,31.38,17.37,0.0,6.99,Completed,False,Referral,0.0
+ORD1098,2026-02-02,CUST010,Beauty,2,35.96,22.98,0.1,6.99,Completed,False,Paid Search,5.5
+ORD1099,2026-01-15,CUST019,Sports,1,134.15,70.98,0.1,4.99,Completed,False,Organic,0.0
+ORD1100,2026-02-17,CUST040,Electronics,2,324.22,186.9,0.1,0.0,Cancelled,False,Paid Search,10.61
+ORD1101,2026-03-16,CUST070,Electronics,4,293.68,206.31,0.05,9.99,Cancelled,False,Organic,0.0
+ORD1102,2026-02-27,CUST060,Clothing,3,38.71,27.81,0.1,0.0,Completed,False,Email,0.0
+ORD1103,2026-01-26,CUST022,Electronics,1,175.78,118.07,0.0,9.99,Completed,False,Referral,0.0
+ORD1104,2026-02-28,CUST024,Electronics,2,80.0,42.06,0.1,4.99,Cancelled,False,Paid Search,20.52
+ORD1105,2026-02-17,CUST026,Beauty,3,45.62,30.11,0.05,4.99,Completed,False,Referral,0.0
+ORD1106,2026-03-09,CUST057,Electronics,1,302.26,148.73,0.05,6.99,Completed,False,Referral,0.0
+ORD1107,2026-02-05,CUST031,Sports,2,97.5,55.65,0.2,6.99,Completed,False,Paid Search,17.03
+ORD1108,2026-03-04,CUST031,Home,1,100.45,75.55,0.05,6.99,Completed,False,Social Ads,9.5
+ORD1109,2026-03-21,CUST025,Clothing,2,19.15,13.03,0.1,0.0,Completed,False,Social Ads,3.38
+ORD1110,2026-03-20,CUST021,Electronics,1,306.8,169.97,0.1,9.99,Cancelled,False,Organic,0.0
+ORD1111,2026-03-11,CUST072,Electronics,2,249.17,187.65,0.0,4.99,Completed,False,Social Ads,16.33
+ORD1112,2026-02-19,CUST002,Home,3,119.33,68.75,0.2,4.99,Completed,False,Paid Search,16.02
+ORD1113,2026-01-30,CUST025,Clothing,3,59.6,36.55,0.2,9.99,Completed,False,Email,0.0
+ORD1114,2026-03-27,CUST070,Home,3,120.42,69.87,0.0,4.99,Completed,False,Referral,0.0
+ORD1115,2026-03-04,CUST019,Beauty,4,50.46,35.8,0.15,9.99,Completed,False,Paid Search,11.67
+ORD1116,2026-03-01,CUST062,Home,3,59.76,39.19,0.05,4.99,Completed,True,Organic,0.0
+ORD1117,2026-01-22,CUST011,Sports,3,15.94,9.26,0.15,0.0,Completed,False,Email,0.0
+ORD1118,2026-01-03,CUST032,Beauty,3,30.23,23.57,0.0,0.0,Completed,False,Organic,0.0
+ORD1119,2026-01-23,CUST021,Home,4,176.89,88.6,0.0,9.99,Completed,False,Email,0.0
+ORD1120,2026-01-22,CUST038,Sports,1,28.98,21.15,0.0,6.99,Completed,False,Paid Search,13.49

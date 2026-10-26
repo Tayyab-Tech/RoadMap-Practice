@@ -1,0 +1,144 @@
+List Interview Questions
+
+What is the difference between append() and extend()?
+What is the difference between append() and insert()?
+What is the difference between remove(), pop(), and del?
+What is the difference between sort() and sorted()?
+What is the difference between reverse() and reversed()?
+What is the difference between copy() and =?
+What is the difference between shallow copy and deep copy?
+Why does sort() return None?
+How do you remove duplicates from a list without using set()?
+How do you find the second largest element in a list?
+How do you reverse a list without using built-in functions?
+How do you count the frequency of elements in a list?
+How do you merge two lists?
+How do you flatten a nested list?
+How do you rotate a list by one position?
+How do you check whether a list is empty?
+What happens if you modify a list while iterating over it?
+How do you remove all occurrences of a value from a list?
+What is list unpacking?
+What is extended unpacking (*)?
+
+
+Tuple Interview Questions
+
+Why are tuples immutable?
+Why are tuples faster than lists?
+What methods are available for tuples?
+What is the difference between (5) and (5,)?
+Can tuples contain mutable objects?
+Can tuples be dictionary keys? Why?
+How do you update a tuple?
+How do you convert a tuple into a list?
+What is tuple packing and unpacking?
+What is extended unpacking in tuples?
+When should you use a tuple instead of a list?
+How do you swap two variables using tuples?
+How do you access nested tuples?
+How do you count duplicate values in a tuple?
+How do you check whether all tuple elements are unique?
+
+
+Set Interview Questions
+
+What is a set?
+Why doesn't a set allow duplicates?
+Why doesn't a set support indexing?
+What data structure is used internally by a set?
+What is hashing?
+Why are sets fast for searching?
+What is the difference between remove() and discard()?
+What is the difference between add() and update()?
+What does pop() remove from a set?
+What is the difference between union() and intersection()?
+What is the difference between difference() and symmetric_difference()?
+What is issubset()?
+What is issuperset()?
+What is isdisjoint()?
+Can a list be stored inside a set? Why?
+Can a tuple be stored inside a set? Why?
+How do you remove duplicates from a list using a set?
+How do you find common elements between two sets?
+How do you check membership in a set?
+When should you use a set instead of a list?
+
+
+Dictionary Interview Questions
+
+What is a dictionary?
+Why are dictionary keys unique?
+What types can be used as dictionary keys?
+Why can't a list be used as a dictionary key?
+What is the difference between get() and []?
+What is the difference between pop() and popitem()?
+What does update() do?
+What is the purpose of keys()?
+What is the purpose of values()?
+What is the purpose of items()?
+How do you safely access a key that may not exist?
+How do you merge two dictionaries?
+How do you reverse a dictionary?
+How do you iterate through keys and values?
+How do you sort a dictionary by key?
+How do you sort a dictionary by value?
+How do you count word frequency using a dictionary?
+How do you check whether a key exists?
+How do you update nested dictionaries?
+When should you use a dictionary instead of a list?
+
+
+Output-Based Questions
+
+What is the output?
+a = [1, 2]
+b = a
+b.append(3)
+print(a)
+What is the output?
+a = [1, 2]
+b = a.copy()
+b.append(3)
+print(a)
+What is the output?
+a = (1)
+print(type(a))
+What is the output?
+a = (1,)
+print(type(a))
+What is the output?
+a = {1, 2, 3}
+a.add(3)
+print(a)
+What is the output?
+a = {1, 2, 3}
+print(a.pop())
+What is the output?
+student = {"name": "Ali"}
+print(student.get("age"))
+What is the output?
+student = {"name": "Ali"}
+print(student["age"])
+What is the output?
+a = [1, 2]
+a.extend("ABC")
+print(a)
+What is the output?
+a = [1, 2]
+a.append("ABC")
+print(a)
+
+
+Scenario-Based Questions
+
+Which data structure would you use to store student records and why?
+Which data structure would you use for GPS coordinates and why?
+Which data structure would you use to remove duplicate emails?
+Which data structure would you use for a shopping cart?
+Which data structure would you use for attendance management?
+Which data structure would you use for caching user information?
+Which data structure would you use to count word frequency?
+Which data structure would you use to represent JSON data?
+Which data structure would you use for unique hashtags?
+Which data structure would you use to represent a phone book?

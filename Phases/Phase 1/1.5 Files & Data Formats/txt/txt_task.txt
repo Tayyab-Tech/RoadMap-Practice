@@ -1,0 +1,17 @@
+Name Ali
+Age 20
+City Lahore
+Course Computer Science
+Name Ahmed
+Age 21
+City Karachi
+Python is easy.
+Java is powerful.
+Python is popular.
+C++ is fast.
+Name Ahmed
+Age 21
+City Karachi
+Name Ahmed
+Age 21
+City Karachi

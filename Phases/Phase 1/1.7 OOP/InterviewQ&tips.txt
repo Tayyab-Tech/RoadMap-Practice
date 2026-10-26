@@ -1,0 +1,130 @@
+Classes & Objects
+
+1. What is Object-Oriented Programming (OOP)?
+2. What are the four pillars of OOP?
+3. What is a class?
+4. What is an object?
+5. What is the difference between a class and an object?
+6. Why do we create classes?
+7. How do you create an object in Python?
+8. What is the purpose of the __init__() method?
+9. What happens if a class has no __init__() method?
+10. What is the difference between an instance variable and a class variable?
+11. Can multiple objects have different values for the same attribute?
+12. What does the self keyword represent?
+13. Is self a keyword in Python?
+14. Why must self be the first parameter of instance methods?
+15. Can one class create objects of another class?
+
+
+
+
+
+Methods
+
+16. What is a method?
+17. What is the difference between a function and a method?
+18. What are instance methods?
+19. What are class methods?
+20. What are static methods?
+21. What is the difference between @classmethod and @staticmethod?
+22. When should you use an instance method?
+23. When should you use a static method?
+24. Can a method call another method of the same class?
+25. Can methods return values?
+26. Can a constructor return a value?
+27. What is method overriding?
+28. What is method overloading? Does Python support it directly?
+29. Can a method have default arguments?
+30. Can methods accept variable-length arguments (*args, **kwargs)?
+
+
+
+
+Inheritance
+
+31. What is inheritance?
+32. Why is inheritance used?
+33. What are the advantages of inheritance?
+34. What is the syntax for inheritance in Python?
+35. What is single inheritance?
+36. What is multiple inheritance?
+37. What is multilevel inheritance?
+38. What is hierarchical inheritance?
+39. Does Python support multiple inheritance?
+40. What is the super() function?
+41. Why is super() used?
+42. What happens if the child class doesn't call the parent's constructor?
+43. Can a child class override a parent's method?
+44. How do you call the parent version of an overridden method?
+45. What is the Method Resolution Order (MRO)?
+46. How can you check the MRO of a class?
+47. What is the diamond problem?
+48. How does Python solve the diamond problem?
+49. Can a child class access parent class variables?
+50. Can a parent class access child class members directly?
+
+
+
+
+
+
+General OOP
+
+51. What is encapsulation?
+52. What is abstraction?
+53. What is polymorphism?
+54. Explain inheritance with a real-world example.
+55. Explain encapsulation with a real-world example.
+56. Explain polymorphism with a real-world example.
+57. What is the difference between abstraction and encapsulation?
+58. What is composition? How is it different from inheritance?
+59. When should you use inheritance instead of composition?
+60. What are the benefits of OOP over procedural programming?
+61. What are the disadvantages of OOP?
+62. What is object instantiation?
+63. Can an object belong to multiple classes?
+64. Can you create an object without assigning it to a variable?
+65. How do you delete an object in Python?
+66. What is the __del__() method?
+67. What is the difference between identity (is) and equality (==) for objects?
+68. How can you compare two objects?
+69. What is an instance of a class?
+70. What are real-life applications of OOP?
+
+
+
+
+
+OOP Interview Tips
+
+Know the four pillars of OOP and be able to define each in simple terms:
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Memorize the difference between:
+Class vs Object
+Function vs Method
+Instance variable vs Class variable
+Class method vs Static method
+Overriding vs Overloading
+Inheritance vs Composition
+== vs is
+Understand self clearly. Interviewers frequently ask what it represents and why it is required.
+Know the purpose of __init__() and how object initialization works.
+Practice writing classes from scratch without looking at examples.
+Be comfortable using super() and explain why it is needed in inheritance.
+Understand Method Resolution Order (MRO) and know how to check it using ClassName.mro() or help(ClassName).
+Explain concepts with real-world examples. For example:
+Vehicle → Car (Inheritance)
+Bank Account (Encapsulation)
+Different payment methods (Polymorphism)
+Write clean, modular code. Keep each class responsible for one concept and use meaningful names.
+Expect coding questions. Common interview tasks include:
+Bank Account
+Library Management System
+Employee Payroll
+Student Management System
+Shape/Animal hierarchies
+Shopping Cart

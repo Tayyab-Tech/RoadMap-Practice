@@ -1,0 +1,233 @@
+1. What is a function?
+2. Why do we use functions?
+3. What are the advantages of using functions?
+4. What is the difference between a function definition and a function call?
+5. What is the difference between parameters and arguments?
+6. What is the purpose of the return statement?
+7. What is the difference between return and print()?
+
+Example:
+
+def add(a, b):
+    return a + b
+
+def add2(a, b):
+    print(a + b)
+
+Which one is more reusable? Why?
+
+8. Can a function return multiple values?
+
+Example:
+
+def calculate(a, b):
+    return a+b, a-b
+9. What happens if a function has no return statement?
+10. What is a default parameter?
+11. What are keyword arguments?
+12. What happens if you pass fewer arguments than required?
+13. Can a function call another function?
+14. What are built-in functions?
+
+Give five examples.
+
+15. What is function reusability?
+Scope Interview Questions (16–25)
+16. What is variable scope?
+17. What is the difference between local and global variables?
+18. Which variable has higher priority inside a function: local or global?
+19. What is the global keyword?
+20. What happens here?
+x = 10
+
+def test():
+    print(x)
+
+test()
+21. What is the output?
+x = 10
+
+def test():
+    x = 20
+    print(x)
+
+test()
+
+print(x)
+22. Why is using many global variables considered bad practice?
+23. What is variable lifetime?
+24. Where are local variables destroyed?
+25. Explain scope using a real-life example.
+
+Module Interview Questions (26–35)
+
+26. What is a module?
+27. Why do we use modules?
+28. Difference between
+import math
+
+and
+
+from math import sqrt
+29. What is an alias?
+
+Example:
+
+import math as m
+30. How do you create your own module?
+31. What happens when you import a module?
+32. Name five built-in Python modules.
+
+Examples:
+
+math
+random
+datetime
+os
+sys
+33. What is the difference between a module and a package?
+34. Can two Python files call each other's functions?
+
+Explain.
+
+35. How would you organize a large Python project?
+
+Advanced Interview Questions (36–40)
+
+36. What makes a function reusable?
+37. How can you reduce duplicate code?
+38. What is modular programming?
+39. Explain DRY Principle.
+
+DRY = Don't Repeat Yourself
+
+40. Which is better?
+
+Option A
+
+print(a+b)
+
+Option B
+
+return a+b
+
+Explain why.
+
+Output Prediction Questions
+Q1
+def hello():
+    print("Python")
+
+hello()
+
+Output?
+
+Q2
+def add(a, b):
+    return a+b
+
+print(add(3,5))
+
+Output?
+
+Q3
+def test():
+    x = 5
+
+print(x)
+
+What happens?
+
+Q4
+x = 10
+
+def test():
+    global x
+    x = 30
+
+test()
+
+print(x)
+
+Output?
+
+Q5
+def square(x):
+    return x*x
+
+def cube(x):
+    return square(x)*x
+
+print(cube(2))
+
+Output?
+
+Q6
+def test():
+    return
+
+print(test())
+
+Output?
+
+Q7
+def greet(name="Guest"):
+    print(name)
+
+greet()
+
+Output?
+
+Q8
+def greet(name):
+    print(name)
+
+greet()
+
+What happens?
+
+Q9
+x = 50
+
+def one():
+    x = 10
+    two()
+    print(x)
+
+def two():
+    print(x)
+
+one()
+
+Output?
+
+Q10
+from math import sqrt
+
+print(sqrt(81))
+
+Output?
+
+Coding Interview Questions
+
+Write a function to find the largest of three numbers.
+Write a function to reverse a string.
+Write a function to count vowels.
+Write a function to calculate factorial.
+Write a function to check whether a number is prime.
+Create your own calculator.py module.
+Write a reusable function to calculate grades.
+Write a reusable function to validate passwords.
+Write a reusable function to calculate averages.
+Split a calculator project into multiple modules.
+
+HR + Conceptual Questions
+
+Why should we use functions instead of writing everything in one file?
+What are the benefits of modular programming?
+Have you ever created your own module?
+How do functions improve code quality?
+What is code reusability?
+What is maintainable code?
+If your code contains repeated blocks, how would you improve it?
+Which is easier to debug: one 1000-line program or 20 small functions?Why?

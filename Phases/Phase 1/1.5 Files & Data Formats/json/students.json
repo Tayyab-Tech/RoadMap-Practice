@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Ali",
+        "Age": 20,
+        "City": "Lahore",
+        "Marks": 85
+    },
+    {
+        "Name": "Ahmed",
+        "Age": 21,
+        "City": "Karachi",
+        "Marks": 78
+    },
+    {
+        "Name": "Sara",
+        "Age": 19,
+        "City": "Islamabad",
+        "Marks": 92
+    },
+    {
+        "Name": "Ayesha",
+        "Age": 20,
+        "City": "Faisalabad",
+        "Marks": 88
+    },
+    {
+        "Name": "Bilal",
+        "Age": 22,
+        "City": "Multan",
+        "Marks": 75
+    },
+    {
+        "Name": "Ahmed",
+        "Age": 21,
+        "City": "Karachi",
+        "Marks": 78
+    },
+    {
+        "Name": "Ahmed",
+        "Age": 31,
+        "City": "ISL",
+        "Marks": 76
+    }
+]
